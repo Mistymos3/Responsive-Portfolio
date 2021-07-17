@@ -1,91 +1,87 @@
-body{
-    background-color: rgb(17, 26, 29);
+body {
+  background-color: rgb(17, 26, 29);
+}
+
+.navbar {
+  background-color: rgb(35, 42, 44);
+  margin: 20px 20px;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.nav-item {
+  margin: 20px 20px;
+  padding: 1px 20px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgb(110, 131, 131);
+  justify-content: center;
+}
+
+.jumbotron {
+  background-image: url(../images/me-blurred.jpg);
+  border-radius: 20px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
 
 
-.navbar{
-    background-color: rgb(59, 90, 100);
-    margin: 20px 20px;
-    border-radius: 20px;
-    z-index: 10;
-}
-
-.nav-item{
-    margin: 20px 20px;
-    padding: 1px 20px;
-    display: inline-block;
-    border-radius: 20px;
-    background-color: rgb(110, 131, 131);
-    text-emphasis-color: black;
-    justify-content: center;
-}
-
-.navbar-brand{
-    border-radius: 20px;
-}
-
-.jumbotron{
-    background-image: url(../images/me-blurred.jpg);
-    border-radius: 20px 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    margin: 20px;
-}
 
 /* CARDS */
-.card{
-    padding: 20px;
-    margin: 15%;
-    border-radius: 20px;
+.card {
+  padding: 20px;
+  margin: 15%;
+  border-radius: 20px;
 }
 
-.card-title{
-    text-align: center;
+.card-title {
+  text-align: center;
 }
 
-.card-body{
-    background-color: rgb(75, 127, 136);
+.card-body {
+  background-color: rgb(75, 127, 136);
 }
-
 
 /*footer*/
-.link{
-    margin: 20px 20px;
-    border-radius: 20px;
-    background-color: rgb(59, 90, 100);
-    z-index: 10;
-    justify-content: space-around;
-    padding: 10px 33.3333%;
+.link {
+  display: flex;
+  flex: 100%;
+  margin: 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(75, 124, 136);
+  z-index: 10;
+  justify-content: space-around;
+  padding: 5px 33.3333%;
 }
 
-.li{
-    margin: 20px 20px;
-    padding: 1px 20px;
-    display: inline-block;
-    border-radius: 20px;
-    background-color: rgb(9, 12, 12);
-    justify-content: space-around;
+.li {
+  display: inline-block;
+  margin: 20px 20px;
+  padding: 1px 20px;
+  border-radius: 20px;
+  background-color: rgb(9, 12, 12);
+  justify-content: space-around;
 }
-
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 700px) {
-    footer{
-        background: gray
-}
+  footer {
+    background: gray;
+  }
 }
 @media screen and (max-width: 700px) {
-    #card li{
-        width: 46%;
-}
+  #card li {
+    width: 46%;
+  }
 }
 @media screen and (max-width: 400px) {
-    #card li{
-        width: 96%;
-}   
+  #card li {
+    width: 96%;
+  }
 }
